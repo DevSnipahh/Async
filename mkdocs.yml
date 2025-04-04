@@ -1,0 +1,52 @@
+site_name: Snipahh's Work!
+site_description: Portfolio about my creations
+site_author: Snipahh (@DevSnipahh)
+site_url: 
+
+repo_name: 
+repo_url: 
+edit_uri: ""
+
+theme:
+  logo: 
+  favicon: Icon.png
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.sections
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: pink
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: pink
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+  highlightjs: true
+  hljs_languages:
+    - lua
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+
+nav:
+  - Snipahh:
+    - About Me: index.md
+    - Achievments: achievements.md
+    - Goals: goals.md
+  - Projects: 
+    - Playlist System: playlist.md
+    - Infinity Error Creator: error.md
