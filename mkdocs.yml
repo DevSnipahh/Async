@@ -1,11 +1,11 @@
 site_name: Snipahh's Work!
 site_description: Portfolio about my creations
 site_author: Snipahh (@DevSnipahh)
-site_url: 
+site_url: https://devsnipahh.github.io/Async/
 
-repo_name: 
-repo_url: 
-edit_uri: ""
+repo_name: Async
+repo_url: https://github.com/devsnipahh/Async
+edit_uri: https://github.com/devsnipahh/Async/edit/main/docs
 
 theme:
   logo: 
